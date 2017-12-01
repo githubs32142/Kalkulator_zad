@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kalkulator</string>
+    <string name="liczba1">Liczba 1</string>
+    <string name="liczba2">Liczba 2</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="mul">*</string>
+    <string name="div">/</string>
+    <string name="wynik">Wynik</string>
+    <string name="pi">Podaj liczbę Pi</string>
+    <string name="cler">Czyść</string>
+    <string name="about">About</string>
+    <string name="clear">Clear</string>
+    <string name="author">Autor: Andrzej Kierepka</string>
+</resources>
