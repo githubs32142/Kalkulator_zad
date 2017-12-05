@@ -189,12 +189,15 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPreExecute() {
-            progressBar.setVisibility(View.GONE);
+            Toast.makeText(MainActivity.this,"Start execute Pi",Toast.LENGTH_SHORT).show();
+            progressBar.setVisibility(View.VISIBLE);
         }
 
         @Override
         protected void onPostExecute(Double aDouble) {
+            Toast.makeText(MainActivity.this,"End execute Pi",Toast.LENGTH_SHORT).show();
             resEdT.setText(String.valueOf(aDouble));
+            progressBar.setVisibility(View.GONE);
         }
     }
 
